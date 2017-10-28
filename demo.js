@@ -1,6 +1,6 @@
 'use strict';
 /** lit-element (https://github.com/kenchris/lit-element) is not yet on npm (there is another thing there with that name) */
-import { html, LitElement } from './lit-element/index.js';
+import { html, LitElement } from '/node_modules/lit-html-element/lit-element.js';
 
 const productApiUrl = 'http://www.json-generator.com/api/json/get/celLKmqymq';
 
